@@ -9,6 +9,10 @@ const gerarFrase = async() => {
     createPage(frase.slip.advice)
 };
 
+// traduzir
+// function traduzirFrase() {
+//     createPage(frasetraduzida)
+// }
 
 function NumImagem() {
     return Math.floor(Math.random() * 4)
@@ -19,6 +23,7 @@ function createPage(advice) {
     containerImg.style.backgroundImage = `url(/assets/bode${NumImagem()}.jpeg)`
     containerAdvice.textContent = `"${advice}"`
 };
+
 
 window.addEventListener('load', gerarFrase);
 btnMaisConselho.addEventListener('click', gerarFrase)
