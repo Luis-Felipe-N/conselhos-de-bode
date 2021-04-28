@@ -1,0 +1,97 @@
+#cabecalho {
+    padding: 1rem 5%;
+}
+
+#cabecalho h2 {
+    color: var(--gray);
+    font-size: 1.3rem;
+}
+
+#cabecalho h1 {
+    color: var(--primary);
+    font-size:2.5rem;
+}
+
+#container-advice-goat {
+    padding: 0 5%;
+}
+
+.wrapper-container-advice{
+    display: flex;
+    max-width: 1000px;
+    height: 350px;
+    margin: 3rem auto;
+    background-color: var(--light-gray);
+    gap: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 1rem 1rem 0 ;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.content-advice {
+    padding-bottom: .5rem;
+    max-width: 500px;
+
+}
+
+.content-advice p {
+    color: var(--primary);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+
+.author {
+    color: var(--gray);
+    font-style: italic;
+    margin-left: 70%;
+}
+
+.img-bode {
+    width: 300px;
+    max-width: 100%;
+    height: 100%;
+    border-radius: 1rem;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.mais-conselho {
+    margin: 5%;
+    display: inline-block;
+    background-color: #72005F;
+    padding: .7rem 2rem;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    border: none;
+    border-radius: .5rem;
+    cursor: pointer;
+    margin-top: 1rem;
+    transition: all .2s;
+}
+
+.mais-conselho:hover {
+    background-color: var(--primary-hover);
+    transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+    .wrapper-container-advice {
+        max-width: 400px;
+        flex-direction: column-reverse;
+        height: 100%;
+        margin: 5% auto;
+        border-radius: 1rem 1rem 0 0;
+    }
+    .img-bode {
+        max-width: 100%;
+        height: 300px;
+    }
+}
