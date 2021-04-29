@@ -48,7 +48,7 @@
 }
 
 @keyframes bodeflutuando {
-    50% {
+    0% {
         transform: translateY(10px);
     }
     100% {
