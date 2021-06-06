@@ -12,6 +12,6 @@ Gerador de conselhos de um sábio Bode.
 - CSS
 - JAVASCRIPT
 
-# Feita com:
+# API
 
 Frases pega da <a href="https://api.adviceslip.com/"> API advice </a>.
